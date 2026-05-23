@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  background: #f5f5f5;
+}
+
+/* 🔥 Responsive Box */
+.box {
+  width: 90%;
+  max-width: 250px;
+  aspect-ratio: 1 / 1;
+  border: 2px solid black;
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 18px;
+  font-weight: 500;
+  background-color: white;
+}
+
+/* Input */
+input {
+  width: 90%;
+  max-width: 250px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid gray;
+}
+
+/* Button */
+button {
+  width: 90%;
+  max-width: 250px;
+  padding: 10px;
+  border: none;
+  background: lightgray;
+  border-radius: 6px;
+  cursor: pointer;
+}
